@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T06:08:00.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="CwQtzj3F2BAYiooEsvp7" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-23T06:08:27.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="MsxstB-yLV9fz1S-_15T" version="20.8.23" type="github">
   <diagram id="NnQSPtpyf3QNm0dHi21h" name="第 2 页">
     <mxGraphModel dx="1434" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
             <mxRectangle x="240" y="170" width="90" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="keWIGBocF02JREnCztjM-51" value="&lt;&lt;get/set&gt;&gt; - plants: BasePlant[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="keWIGBocF02JREnCztjM-49" vertex="1">
+        <mxCell id="keWIGBocF02JREnCztjM-51" value="&lt;&lt;get/set&gt;&gt; - plants: List&lt;BasePlant&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="keWIGBocF02JREnCztjM-49" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="keWIGBocF02JREnCztjM-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="keWIGBocF02JREnCztjM-49" vertex="1">
@@ -85,7 +85,7 @@
         <mxCell id="gZg1OB7kJeGNL3k7u4_E-5" value="&lt;&lt;Create&gt;&gt; + Gardener(id: String, name: String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="keWIGBocF02JREnCztjM-49" vertex="1">
           <mxGeometry y="86" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="keWIGBocF02JREnCztjM-53" value="+ work(plants: BasePlant[]): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="keWIGBocF02JREnCztjM-49" vertex="1">
+        <mxCell id="keWIGBocF02JREnCztjM-53" value="+ work(plants: List&lt;BasePlant&gt;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="keWIGBocF02JREnCztjM-49" vertex="1">
           <mxGeometry y="112" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="keWIGBocF02JREnCztjM-214" value="FloweringPlant" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="keWIGBocF02JREnCztjM-78" vertex="1">
